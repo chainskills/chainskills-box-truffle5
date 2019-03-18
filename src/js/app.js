@@ -10,7 +10,7 @@ App = {
         return App.initWeb3();
     },
 
-    initWeb3() {
+    async initWeb3() {
         /*
          * Replace me...
          */
@@ -18,7 +18,7 @@ App = {
         return App.initContract();
     },
 
-    initContract() {
+    async initContract() {
         /*
          * Replace me...
          */
